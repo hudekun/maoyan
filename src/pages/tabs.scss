@@ -1,0 +1,27 @@
+nav.tabs {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 49px;
+    width: 100%;
+    display: flex;
+    a.item {
+        flex: 1;
+        text-align: center;
+        /* line-height: 49px; */
+        display: flex;
+        flex-direction: column;
+        i {
+            height: 30px;
+        }
+        span {
+            flex: 1;
+            font-size: 12px;
+            text-align: center;
+            line-height: 12px;
+        }
+        &.active{
+           color: #f03d37;
+        }
+    }
+}

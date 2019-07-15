@@ -1,0 +1,25 @@
+
+.cinemaWrap{
+    width:100%;
+    height:100%;
+    .coverWrap {
+        width: 100%;
+        height: 100%;
+        background: #000;
+        opacity: 0.5;
+    }
+    .cinemaContent {
+        position: absolute;
+        top: 44px;
+        width: 100%;
+        height: 400px;
+        background: #fff;
+    }
+}
+.content_cine {
+    width: 100%;
+    height: 100%;
+}
+.topStyle{
+    top:44px
+}

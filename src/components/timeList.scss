@@ -1,0 +1,27 @@
+.showDates::-webkit-scrollbar{
+    display: none
+}
+.showDates {
+    width: 100%;
+    background-color: #fff;
+    overflow-x: scroll;
+    height: 45px;
+    position: absolute;
+    ul#timeline {
+        white-space: nowrap;
+        li.showDay {
+            position: relative;
+            display: inline-block;
+            width: 115px;
+            line-height: 43px;
+            margin-left: 4.5px;
+            font-size: 14px;
+            text-align: center;
+            list-style: none;
+            &.chosen{
+                border-bottom: 2px solid #f03d37;
+                color: #f03d37;
+            }
+        }
+    }
+}
